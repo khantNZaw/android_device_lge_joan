@@ -17,6 +17,7 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.hw.binder.size_kbyte=1024
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.speaker.prot.enable=false
+persist.vendor.lge.3rd.speaker.prot.enable=on
 ro.af.client_heap_size_kbyte=7168
 ro.vendor.audio.sdk.fluencetype=nxp
 ro.vendor.audio.sdk.ssr=false
