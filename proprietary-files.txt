@@ -1032,7 +1032,6 @@ vendor/lib/libqti-perfd-client.so|18f7f4a390843b1cb2789b8db233df3476e094be
 vendor/lib/libqti-perfd.so|1773395f8a272997745d569e2f7ab516faf2fd1e
 vendor/lib/libqti-util.so|2155f86e5ae09817d92ee1715e36f6715437abed
 vendor/lib/libqti-utils.so|a14cfa78b6fcc622562de1b8f3b4b6cd912a9bd0
-vendor/lib/vendor.qti.hardware.perf@2.0.so|34d7006dd82cea9bbd86a3901e2a2256685ec08f
 vendor/lib/vendor.qti.power.pasrmanager@1.0.so|c5901f4f74fdb359cb30c4d968017156cbc31c45
 vendor/lib64/libadaptlaunch.so|d4bb238a9613a2c87c913540876b261f458d42ae
 vendor/lib64/libappclassifier.so|b509cf599e385dccdf8626541ed41d9197ad2f72
@@ -1046,7 +1045,6 @@ vendor/lib64/libqti-perfd-client.so|fafabc5b46543ebaf04cb3c258183c88ef1f56d2
 vendor/lib64/libqti-perfd.so|b78f6d5a374cf0ea07c48f6be1d1257ef15cfe62
 vendor/lib64/libqti-util.so|6254f62eaf8f07b6e7f0d22a26f06c680a1101ee
 vendor/lib64/libqti-utils.so|83dd7984d0f872987e3a88260aa2fad05a206367
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|8704f79430333a19eb05ff572cdf77cd1f319e1c
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|e76dd829ff70101f64289026e383c99ff6ab5a8e
 
 # Peripheral manager
