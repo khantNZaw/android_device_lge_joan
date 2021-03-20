@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "Slowhy/android_kernel_lge_msm8998",
+    "target_path": "kernel/lge/msm8998",
+    "branch": "pe-11
+  },
+  {
+    "remote": "github",
+    "repository": "Slowhy/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch": "pe-11"
+  },
+  {
+    "remote": "github",
+    "repository": "Slowhy/android_device_lge_common",
+    "target_path": "device/lge/common",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "Slowhy/android_hardware_lge",
+    "target_path": "hardware/lge",
+    "branch": "eleven"
+  }
+]
