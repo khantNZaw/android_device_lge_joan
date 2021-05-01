@@ -187,8 +187,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1 \
-    LGEPocketMode
+    android.hardware.biometrics.fingerprint@2.1
 
 # FM packages
 PRODUCT_PACKAGES += \
