@@ -4,8 +4,8 @@ $(call inherit-product-if-exists, vendor/lge/joan/joan-vendor.mk)
 PRODUCT_SOONG_NAMESPACES += \
     device/lge/joan
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common exTHmUI stuff.
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -19,11 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := lineage_joan
+PRODUCT_NAME := exthm_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := V30
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 

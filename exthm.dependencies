@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "Slowhy/android_kernel_lge_msm8998",
+    "target_path": "kernel/lge/msm8998",
+    "branch": "vaccine"
+  },
+  {
+    "remote": "github",
+    "repository": "ShapeShifter499/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch": "lineage-17.1"
+  },
+  {
+    "remote": "github",
+    "repository": "SGCMarkus/android_device_lge_common",
+    "target_path": "device/lge/common",
+    "branch": "lineage-17.1"
+  },
+  {
+    "remote": "github",
+    "repository": "SGCMarkus/android_hardware_lge",
+    "target_path": "hardware/lge",
+    "branch": "lineage-17.1"
+  }
+]
