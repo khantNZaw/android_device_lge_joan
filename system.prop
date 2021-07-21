@@ -1,0 +1,52 @@
+#
+# system props for joan
+#
+
+# APEX
+ro.apex.updatable=true
+
+# Audio
+audio.deep_buffer.media=true
+audio.offload.video=false
+
+# Bluetooth
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
+persist.bluetooth.a2dp_offload.disabled=true
+ro.bluetooth.a2dp_offload.supported=false
+vendor.bluetooth.soc=cherokee
+
+# Charger
+ro.charger.enable_suspend=true
+
+# Display
+debug.sf.hw=1
+persist.debug.wfd.enable=0
+persist.sys.wfd.virtual=0
+
+# Perf
+ro.vendor.qti.sys.fw.bg_apps_limit=48
+
+# QC framework value-adds
+ro.vendor.qti.va_aosp.support=1
+
+# Radio
+DEVICE_PROVISIONED=1
+persist.sys.fflag.override.settings_network_and_internet_v2=true
+ril.subscription.types=NV,RUIM
+rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
+ro.telephony.default_network=10
+telephony.lteOnCdmaDevice=1
+
+# SurfaceFlinger
+debug.sf.early_app_phase_offset_ns=1500000
+debug.sf.early_gl_app_phase_offset_ns=15000000 
+debug.sf.early_gl_phase_offset_ns=3000000
+debug.sf.early_phase_offset_ns=1500000
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Voice assistant
+ro.opa.eligible_device=true
